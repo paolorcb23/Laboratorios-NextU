@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ejericio Codificacion de Captura de datos</title>
+  </head>
+  <body>
+    <form autocomplete="ON" name="Regustro de usuario">
+    <fieldset name="Datos del usuario">
+      <h1>Registro en nuestra tienda</h1>
+      <p>
+          <label for="usename">Nombre de usuario</label><br/>
+          <input type="text" name="username" placeholder="Ej: Luis">
+        </p>
+        <p>
+          <label for="email">Email de usuario<br/>
+          <input type="text" name="email" placeholder="Ej: luis@gmail.com">
+        </p>
+        <p>
+          <label for="age">Edad <br/>
+          <input type="number" placeholder="Ej: 18" maxlength="90">
+        </p>
+
+        <p>
+          <label for="recommend">Recomendado por:</label>
+        <br/>
+        <select name="recommend">
+          <option>Google</option>
+          <option>amigo</option>
+          <option>redes sociales</option>
+        </select>
+      </p>
+        <p>
+          <label for="comment">Comentarios:</label>
+          <br/>
+          <textarea name="area_texto" rows="3" cols="30"></textarea>
+        </p>
+        <p>
+          <label for="accept">Acepto terminos y condiciones: </label>
+          <br/>
+          <input type="checkbox" value="accept">
+        </p>
+        <p>
+          <input type="submit" value="Registrar">
+        </p>
+     </fieldset>
+  </form>
+  </body>
+</html>
